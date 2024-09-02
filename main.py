@@ -1,7 +1,7 @@
 from unstructured.partition.pdf import partition_pdf
 import streamlit as st
 import os
-
+import json
 def use_unstructured(file_content, file_name):
     with open(file_name, "wb") as f:
         f.write(file_content)
